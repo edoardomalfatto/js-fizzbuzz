@@ -15,18 +15,18 @@ for (i=0; i<100 ; i++) {
 
     if (numeroAumentato % 5 == 0 && numeroAumentato % 3 == 0) {
         numeroAumentato=("FizzBuzz");   
-        console.log(numeroAumentato);
+        document.getElementById("ancora").innerHTML = document.getElementById("ancora").innerHTML + "<li>" + numeroAumentato + "</li>";
  
     } else if (numeroAumentato % 5 == 0) {
         numeroAumentato=("Buzz");
-        console.log(numeroAumentato);
+        document.getElementById("ancora").innerHTML = document.getElementById("ancora").innerHTML + "<li>" + numeroAumentato + "</li>";
 
     }else if (numeroAumentato % 3 == 0) {
         numeroAumentato=("Fizz"); 
-        console.log(numeroAumentato);
+        document.getElementById("ancora").innerHTML = document.getElementById("ancora").innerHTML + "<li>" + numeroAumentato + "</li>";
 
     }else if (numeroAumentato % 5 != 0 || numeroAumentato % 3 != 0){
-        console.log(numeroAumentato);
+        document.getElementById("ancora").innerHTML = document.getElementById("ancora").innerHTML + "<li>" + numeroAumentato + "</li>";
     }     
 }
 
