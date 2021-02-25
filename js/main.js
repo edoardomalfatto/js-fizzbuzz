@@ -28,6 +28,6 @@ for (i=0; i<100 ; i++) {
     }else if (numeroAumentato % 5 != 0 || numeroAumentato % 3 != 0){
         document.getElementById("ancora").innerHTML = document.getElementById("ancora").innerHTML + "<li>" + numeroAumentato + "</li>";
     }     
-}
+};
 
 
